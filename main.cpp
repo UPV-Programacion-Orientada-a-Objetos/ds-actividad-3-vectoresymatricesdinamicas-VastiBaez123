@@ -9,9 +9,9 @@ float** planproduccion = nullptr;
 float* costosunitarios = nullptr; 
 float* invmateriaprima = nullptr;
 
-// Arreglo estático de requerimientos (5x4)
+
 int vecrequerimientos[maxprods][maxmatprim] = {
-    // MP1, MP2, MP3, MP4
+   
     { 3, 1, 0, 0 },  
     { 2, 0, 1, 0 },  
     { 1, 2, 0, 1 },  
